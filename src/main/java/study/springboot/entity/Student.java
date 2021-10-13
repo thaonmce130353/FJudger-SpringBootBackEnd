@@ -18,7 +18,7 @@ public class Student {
 	@Column(name = "id")
 	private Long id;
 	
-	@Column(name = "userId")
+	@Column(name = "user_id")
 	private String userId;
 	
 	@Column(name = "rollnumber")
@@ -43,6 +43,8 @@ public class Student {
 	private int status;
 	
 	
+	public Student() {}
+
 	public Student(String rollNumber, String name, String email, int status) {
 		super();
 		this.rollNumber = rollNumber;

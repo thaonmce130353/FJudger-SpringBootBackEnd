@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="class")
-public class Class {
+public class Classes {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,7 +28,7 @@ public class Class {
 	@Column(name="status")
 	private int status;
 	
-	public Class(String semester, String object, String className, int status) {
+	public Classes(String semester, String object, String className, int status) {
 		super();
 		this.semester = semester;
 		this.object = object;

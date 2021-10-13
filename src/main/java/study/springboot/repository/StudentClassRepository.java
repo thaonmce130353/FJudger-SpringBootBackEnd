@@ -3,9 +3,9 @@ package study.springboot.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import study.springboot.entity.Student;
+import study.springboot.entity.StudentClass;
 
 @Repository
-public interface StudentRepository extends JpaRepository<Student, Long>{
-	
+public interface StudentClassRepository extends JpaRepository<StudentClass, Long>{
+
 }
